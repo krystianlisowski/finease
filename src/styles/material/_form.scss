@@ -3,11 +3,20 @@
         top: 2rem;
     }
 
-    &.mat-form-field-appearance-outline .mat-form-field-infix {padding: 0.75rem 0; border:0;}
-    &.mat-form-field-appearance-outline .mat-form-field-flex{ margin:0; padding: 0.25rem 0.75rem 0; }
-    &.mat-form-field-appearance-outline  .mat-form-field-wrapper { padding: 0 0 0.75rem; }
+    &.mat-form-field-appearance-outline .mat-form-field-infix {
+        padding: 0.75rem 0;
+        border: 0;
+    }
+    &.mat-form-field-appearance-outline .mat-form-field-flex {
+        margin: 0;
+        padding: 0.25rem 0.75rem 0;
+    }
+    &.mat-form-field-appearance-outline .mat-form-field-wrapper {
+        padding: 0 0 0.75rem;
+    }
 
-    &.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+    &.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float
+        .mat-form-field-label {
         transform: translateY(-1.275rem) scale(0.75);
         scale: 0.75;
         margin-bottom: 0.25rem;

@@ -1,32 +1,32 @@
 {
-    "commons": {
-        "all": "All",
-        "next": "Next",
-        "send": "Send",
-        "save": "Save",
-        "add": "Add",
-        "delete": "Delete",
-        "cancel": "Cancel",
-        "confirm": "Confirm",
-        "edit": "Edit",
-        "change": "Change",
-        "search": "Search",
-        "choose": "Choose",
-        "more": "More",
-        "less": "Less",
-        "yes": "Yes",
-        "no": "No",
-        "saved": "Saved",
-        "deleted": "Deleted",
-        "show": "Show",
-        "hide": "Hide",
-        "before": "Before",
-        "after": "After"
-    },
-    "login": {
-        "password": "Password",
-        "email": "Email address",
-        "action": "Sign in",
-        "description": "Sign in to your account"
-    }
+  "commons": {
+    "all": "All",
+    "next": "Next",
+    "send": "Send",
+    "save": "Save",
+    "add": "Add",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "change": "Change",
+    "search": "Search",
+    "choose": "Choose",
+    "more": "More",
+    "less": "Less",
+    "yes": "Yes",
+    "no": "No",
+    "saved": "Saved",
+    "deleted": "Deleted",
+    "show": "Show",
+    "hide": "Hide",
+    "before": "Before",
+    "after": "After"
+  },
+  "login": {
+    "password": "Password",
+    "email": "Email address",
+    "action": "Sign in",
+    "description": "Sign in to your account"
+  }
 }

@@ -4,14 +4,8 @@ import { AdminCategoriesComponent } from './admin-categories.component';
 import { AdminCategoriesPageRoutingModule } from './admin-categories-routing.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 
-
-
 @NgModule({
-  declarations: [
-    AdminCategoriesComponent
-  ],
-  imports: [
-    CommonModule, AdminCategoriesPageRoutingModule, SharedModule
-  ]
+    declarations: [AdminCategoriesComponent],
+    imports: [CommonModule, AdminCategoriesPageRoutingModule, SharedModule],
 })
-export class AdminCategoriesModule { }
+export class AdminCategoriesModule {}

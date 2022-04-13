@@ -4,14 +4,8 @@ import { BudgetComponent } from './budget.component';
 import { BudgetPageRoutingModule } from './budget-routing.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 
-
-
 @NgModule({
-  declarations: [
-    BudgetComponent
-  ],
-  imports: [
-    CommonModule, BudgetPageRoutingModule, SharedModule
-  ]
+    declarations: [BudgetComponent],
+    imports: [CommonModule, BudgetPageRoutingModule, SharedModule],
 })
-export class BudgetModule { }
+export class BudgetModule {}

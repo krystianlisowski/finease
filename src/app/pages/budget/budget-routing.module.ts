@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core'
-import { Routes, RouterModule } from '@angular/router'
-import { BudgetComponent } from './budget.component'
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { BudgetComponent } from './budget.component';
 
-const routes: Routes = [{ path: '', component: BudgetComponent }]
+const routes: Routes = [{ path: '', component: BudgetComponent }];
 
 @NgModule({
-    imports: [RouterModule.forChild(routes)]
+    imports: [RouterModule.forChild(routes)],
 })
 export class BudgetPageRoutingModule {}

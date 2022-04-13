@@ -2,8 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login.component';
 import { LoginPageRoutingModule } from './login-routing.module';
-import { ReactiveFormsModule } from '@angular/forms';
-import { MaterialModule } from 'src/app/material/material.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 
@@ -12,6 +10,6 @@ import { SharedModule } from 'src/app/shared/shared.module';
     LoginComponent
   ],
   imports: [
-   CommonModule, LoginPageRoutingModule, SharedModule, MaterialModule]
+   CommonModule, LoginPageRoutingModule, SharedModule]
 })
 export class LoginModule { }

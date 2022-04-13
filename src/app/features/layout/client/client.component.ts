@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit, TemplateRef } from '@angular/core';
 
 @Component({
   selector: 'app-client',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClientComponent implements OnInit {
 
+  @Input() content!: TemplateRef<any> | null;
   constructor() { }
 
   ngOnInit(): void {

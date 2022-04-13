@@ -9,6 +9,7 @@ const routes: Routes = [
 },
 {
     path: 'login',
+    data: { layout: 'public' },
     loadChildren: () => import('./pages/login/login.module').then((m) => m.LoginModule),
 },
 ];

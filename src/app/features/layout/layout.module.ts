@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ClientComponent } from './client/client.component';
 import { AdminComponent } from './admin/admin.component';
 import { PublicComponent } from './public/public.component';
+import { HeaderModule } from '../header/header.module';
+import { FooterModule } from '../footer/footer.module';
 
 
 
@@ -12,8 +14,15 @@ import { PublicComponent } from './public/public.component';
     AdminComponent,
     PublicComponent
   ],
+  exports: [
+    ClientComponent,
+    AdminComponent,
+    PublicComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    HeaderModule,
+    FooterModule
   ]
 })
 export class LayoutModule { }

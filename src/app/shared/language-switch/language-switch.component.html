@@ -1,0 +1,16 @@
+<ul class="flex items-center space-x-4">
+    <li>
+        <a [class.text-green-500]="currentLang === 'pl'" 
+        href="javascript:void(0)" 
+        (click)="changeLanguage('pl')"
+        [attr.data-lang]="'pl'"
+        >PL</a>
+    </li>
+    <li>
+        <a [class.text-green-500]="currentLang === 'en'" 
+        href="javascript:void(0)" 
+        (click)="changeLanguage('en')"
+        [attr.data-lang]="'en'"
+        >EN</a>
+    </li>
+</ul>

@@ -1,0 +1,32 @@
+{
+    "commons": {
+        "all": "Wszystkie",
+        "next": "Dalej",
+        "send": "Wyślij",
+        "save": "Zapisz",
+        "add": "Dodaj",
+        "delete": "Usuń",
+        "cancel": "Anuluj",
+        "confirm": "Potwierdź",
+        "edit": "Edytuj",
+        "change": "Zmień",
+        "search": "Wyszukaj",
+        "choose": "Wybierz",
+        "more": "Więcej",
+        "less": "Mniej",
+        "yes": "Tak",
+        "no": "Nie",
+        "saved": "Zapisano",
+        "deleted": "Usunięto",
+        "show": "Pokaż",
+        "hide": "Ukryj",
+        "before": "Przed",
+        "after": "Po"
+    },
+    "login": {
+        "password": "Hasło",
+        "email": "E-mail",
+        "action": "Zaloguj się",
+        "description": "Zaloguj się na swoje konto"
+    }
+}

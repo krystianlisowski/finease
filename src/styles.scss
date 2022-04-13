@@ -39,5 +39,15 @@ $finease-theme: mat.define-light-theme((
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .max-h-content {
+    max-height: calc(100vh - 61px);
+  }
+  .min-h-content {
+    min-height: calc(100vh - 61px);
+  }
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Roboto", sans-serif; }

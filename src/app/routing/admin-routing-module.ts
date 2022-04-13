@@ -8,13 +8,15 @@ const routes: Routes = [
         pathMatch: 'full',
     },
     {
-      path: 'categories',
-      loadChildren: () => import('../admin-pages/admin-categories/admin-categories.module').then((m) => m.AdminCategoriesModule),
-    }
-  ];
-  
-  @NgModule({
-    imports: [RouterModule.forChild(routes)]
-  })
-  export class AdminRoutingModule { }
-  
+        path: 'categories',
+        loadChildren: () =>
+            import('../admin-pages/admin-categories/admin-categories.module').then(
+                m => m.AdminCategoriesModule,
+            ),
+    },
+];
+
+@NgModule({
+    imports: [RouterModule.forChild(routes)],
+})
+export class AdminRoutingModule {}
